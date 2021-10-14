@@ -15,28 +15,28 @@ namespace HomeWork2._7
             int markPhysics = 69;
 
             string FUNA = $"Ф.И.О. - {FullName}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - FUNA.Length / 2, 0);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - FUNA.Length / 2, Console.WindowHeight / 2 - 4);
             Console.WriteLine(FUNA);
 
             string AGE = $"Возраст - {Age}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - AGE.Length / 2, 1);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - AGE.Length / 2, Console.WindowHeight / 2 - 3);
             Console.WriteLine(AGE);
 
             string EMAIL = $"Эл. почта - {Email}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - EMAIL.Length / 2, 2);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - EMAIL.Length / 2, Console.WindowHeight / 2 - 2);
             Console.WriteLine(EMAIL);
             
 
             string markProStr = $"Баллы по программированию - {markProgramming}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - markProStr.Length / 2, 3);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - markProStr.Length / 2, Console.WindowHeight / 2 - 1);
             Console.WriteLine(markProStr);
 
             string markMathStr = $"Баллы по математике - {markMath}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - markMathStr.Length / 2, 4);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - markMathStr.Length / 2, Console.WindowHeight / 2);
             Console.WriteLine(markMathStr);
 
             string markPhysStr = $"Баллы по физике - {markPhysics}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - markPhysStr.Length / 2, 5);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - markPhysStr.Length / 2, Console.WindowHeight / 2 + 1);
             Console.WriteLine(markPhysStr);
 
 
@@ -55,12 +55,12 @@ namespace HomeWork2._7
 
 
             string MARKSUM = $"Сумма баллов - " + $"{markSum}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - MARKSUM.Length / 2, 6);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - MARKSUM.Length / 2, Console.WindowHeight / 2 + 2);
             Console.WriteLine(MARKSUM);
             Console.ReadKey();
 
             string MAKRMEDIAN = $"Средний балл - {markMedian}";
-            Console.SetCursorPosition(Console.WindowWidth / 2 - MAKRMEDIAN.Length / 2, 7);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - MAKRMEDIAN.Length / 2, Console.WindowHeight / 2 + 3);
             Console.WriteLine(MAKRMEDIAN);            
             Console.ReadKey();
 
